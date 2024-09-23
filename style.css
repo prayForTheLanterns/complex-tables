@@ -1,0 +1,54 @@
+:root {
+    --background: #e6f0ff;
+}
+
+.assignment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 600px;
+    min-height: 600px; 
+    margin: 40px;
+    border: 2px solid transparent;
+    resize: both;
+    overflow: auto; 
+
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.subtitle {
+    margin-bottom: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.product {
+    text-align: left;
+}
+
+.header {
+    background: var(--background);
+    text-align: left;
+}
+
+tbody tr td {
+    text-align: right;
+}

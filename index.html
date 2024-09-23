@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Oswaldo Fabrizio Ascencio De Los Santos">
+    <meta name="description" content="A simple HTML table">
+    <title> <OFDLSA/> </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="assignment">
+        <h1> Complex Table </h1>
+        <p class="subtitle"> Oswaldo Fabrizio Ascencio De Los Santos </p>
+        <p> Resizeable for fun</p>
+        <table class="item-table">
+            <caption> Invoice table </caption>
+            <thead>
+                <tr class="header">
+                    <td colspan="3"> <strong> Invoice #ABC123XYZ99 </strong> </td>
+                    <td> <strong> September 22nd, 2024 </strong> </td>
+                </tr>
+                <tr> 
+                    <td colspan="2">
+                            <strong> Pay to: </strong> <br>
+                            Acme Billing Co.<br>
+                            199 Chambers St.<br>
+                            Brooklyn, NY 12345
+                    </td>
+                    <td colspan="2">
+                            <strong> Customer: </strong> <br>
+                            Ana Reksik<br>
+                            321 Willow Way<br>
+                            Somewhere, MA 54321 
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="header">Name / Description</th>
+                    <th class="header">Qty.</th>
+                    <th class="header">Unit Price</th>
+                    <th class="header">Cost</th>
+                </tr>
+                <tr>
+                    <td class="product">Paperclips</td>
+                    <td>1000</td>
+                    <td>0.01</td>
+                    <td>10.00</td>
+                </tr>
+                <tr>
+                    <td class="product">Staples (box)</td>
+                    <td>100</td>
+                    <td>1.00</td>
+                    <td>100.00</td>
+                </tr>
+            </tbody>
+            <tfooter>
+                <tr>
+                    <td colspan="3" class="header"><strong>Subtotal</strong></td>
+                    <td>110.00</td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="header"><strong>Tax</strong></td>
+                    <td>8%</td>
+                    <td>8.80</td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="header"><strong>Grand Total</strong></td>
+                    <td> $118.80 </td>
+                </tr>
+            </tfooter>
+        </table>
+    </main>
+</body>
+</html>
